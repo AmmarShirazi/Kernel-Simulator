@@ -1,0 +1,654 @@
+Time      Ru        Re        Wa        CPU0                CPU1                I/O Queue
+
+0         0         0         0         IDLE                IDLE                <<  
+0.1       2         3         0         I-Chrome            I-Word              <<  
+0.2       2         3         0         I-Chrome            I-Word              <<  
+0.3       2         3         0         I-Chrome            I-Word              <<  
+0.4       2         3         0         I-Chrome            I-Word              <<  
+0.5       2         3         0         I-Chrome            I-Word              <<  
+0.6       2         3         0         I-Chrome            I-Word              <<  
+0.7       2         3         0         I-Chrome            I-Word              <<  
+0.8       2         3         0         I-Chrome            I-Word              <<  
+0.9       2         3         0         I-Chrome            I-Word              <<  
+1         2         3         0         I-Chrome            I-Word              <<  
+1.1       2         3         0         I-Chrome            I-Word              <<  
+1.2       2         3         0         I-Chrome            I-Word              <<  
+1.3       2         3         0         I-Chrome            I-Word              <<  
+1.4       2         3         0         I-Chrome            I-Word              <<  
+1.5       2         3         0         I-Chrome            I-Word              <<  
+1.6       2         3         0         I-Chrome            I-Word              <<  
+1.7       2         3         0         I-Chrome            I-Word              <<  
+1.8       2         3         0         I-Chrome            I-Word              <<  
+1.9       2         3         0         I-Chrome            I-Word              <<  
+2         2         3         0         I-Chrome            I-Word              <<  
+2.1       2         3         0         I-Chrome            I-Word              <<  
+2.2       2         3         0         I-Chrome            I-Word              <<  
+2.3       2         3         0         I-Chrome            I-Word              <<  
+2.4       2         3         0         I-Chrome            I-Word              <<  
+2.5       2         3         0         I-Chrome            I-Word              <<  
+2.6       2         3         0         I-Chrome            I-Word              <<  
+2.7       2         3         0         I-Chrome            I-Word              <<  
+2.8       2         3         0         I-Chrome            I-Word              <<  
+2.9       2         3         0         I-Chrome            I-Word              <<  
+3         2         3         0         I-Chrome            I-Word              <<  
+3.1       2         3         0         I-Chrome            I-Word              <<  
+3.2       2         3         0         I-Chrome            I-Word              <<  
+3.3       2         3         0         I-Chrome            I-Word              <<  
+3.4       2         3         0         I-Chrome            I-Word              <<  
+3.5       2         3         0         I-Chrome            I-Word              <<  
+3.6       2         3         0         I-Chrome            I-Word              <<  
+3.7       2         3         0         I-Chrome            I-Word              <<  
+3.8       2         3         0         I-Chrome            I-Word              <<  
+3.9       2         3         0         I-Chrome            I-Word              <<  
+4         2         3         0         I-Chrome            I-Word              <<  
+4.1       2         3         0         I-Chrome            I-Word              <<  
+4.2       2         3         0         I-Chrome            I-Word              <<  
+4.3       2         3         0         I-Chrome            I-Word              <<  
+4.4       2         3         0         I-Chrome            I-Word              <<  
+4.5       2         3         0         I-Chrome            I-Word              <<  
+4.6       2         3         0         I-Chrome            I-Word              <<  
+4.7       2         3         0         I-Chrome            I-Word              <<  
+4.8       2         3         0         I-Chrome            I-Word              <<  
+4.9       2         3         0         I-Chrome            I-Word              <<  
+5         2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.1       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.2       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.3       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.4       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.5       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.6       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.7       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.8       2         3         1         I-Chrome            I-Terminal          <<  I-Word              
+5.9       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6         2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.1       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.2       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.3       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.4       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.5       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.6       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.7       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.8       2         4         1         I-Chrome            I-Terminal          <<  I-Word              
+6.9       2         5         1         I-Chrome            I-Terminal          <<  I-Word              
+7         2         6         0         I-Chrome            I-Terminal          <<  
+7.1       2         6         0         I-Chrome            I-Terminal          <<  
+7.2       2         6         0         I-Chrome            I-Terminal          <<  
+7.3       2         6         0         I-Chrome            I-Terminal          <<  
+7.4       2         6         0         I-Chrome            I-Terminal          <<  
+7.5       2         6         0         I-Chrome            I-Terminal          <<  
+7.6       2         6         0         I-Chrome            I-Terminal          <<  
+7.7       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+7.8       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+7.9       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8         2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.1       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.2       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.3       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.4       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.5       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.6       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.7       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.8       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+8.9       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9         2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.1       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.2       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.3       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.4       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.5       2         5         1         C-TreeGen           I-Terminal          <<  I-Chrome            
+9.6       2         6         0         C-TreeGen           I-Terminal          <<  
+9.7       2         6         0         C-TreeGen           I-Terminal          <<  
+9.8       2         6         0         C-TreeGen           I-Terminal          <<  
+9.9       2         6         0         C-TreeGen           I-Terminal          <<  
+10        2         6         0         C-TreeGen           I-Terminal          <<  
+10.1      2         6         0         C-TreeGen           I-Terminal          <<  
+10.2      2         6         0         C-TreeGen           I-Terminal          <<  
+10.3      2         6         0         C-TreeGen           I-Terminal          <<  
+10.4      2         6         0         C-TreeGen           I-Terminal          <<  
+10.5      2         6         0         C-TreeGen           I-Terminal          <<  
+10.6      2         6         0         C-TreeGen           I-Terminal          <<  
+10.7      2         6         0         C-TreeGen           I-Terminal          <<  
+10.8      2         6         0         C-TreeGen           I-Terminal          <<  
+10.9      2         6         0         C-TreeGen           I-Terminal          <<  
+11        2         6         0         C-TreeGen           I-Terminal          <<  
+11.1      2         6         0         C-TreeGen           I-Terminal          <<  
+11.2      2         6         0         C-TreeGen           I-Terminal          <<  
+11.3      2         6         0         C-TreeGen           I-Terminal          <<  
+11.4      2         6         0         C-TreeGen           I-Terminal          <<  
+11.5      2         6         0         C-TreeGen           I-Terminal          <<  
+11.6      2         6         0         C-TreeGen           I-Terminal          <<  
+11.7      2         6         0         C-TreeGen           I-Terminal          <<  
+11.8      2         6         0         C-TreeGen           I-Terminal          <<  
+11.9      2         6         0         C-TreeGen           I-Terminal          <<  
+12        2         6         0         C-TreeGen           I-Terminal          <<  
+12.1      2         6         0         C-TreeGen           I-Terminal          <<  
+12.2      2         6         0         C-TreeGen           I-Terminal          <<  
+12.3      2         6         0         C-TreeGen           I-Terminal          <<  
+12.4      2         6         0         C-TreeGen           I-Terminal          <<  
+12.5      2         6         0         C-TreeGen           I-Terminal          <<  
+12.6      2         6         0         C-TreeGen           I-Terminal          <<  
+12.7      2         6         0         C-TreeGen           I-Terminal          <<  
+12.8      2         6         0         C-TreeGen           I-Terminal          <<  
+12.9      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13        2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.1      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.2      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.3      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.4      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.5      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.6      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.7      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.8      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+13.9      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14        2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.1      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.2      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.3      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.4      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.5      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.6      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.7      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.8      2         5         1         C-TreeGen           C-g++               <<  I-Terminal          
+14.9      2         6         0         C-TreeGen           C-g++               <<  
+15        2         6         0         C-TreeGen           C-g++               <<  
+15.1      2         6         0         C-TreeGen           C-g++               <<  
+15.2      2         6         0         C-TreeGen           C-g++               <<  
+15.3      2         6         0         C-TreeGen           C-g++               <<  
+15.4      2         6         0         C-TreeGen           C-g++               <<  
+15.5      2         6         0         C-TreeGen           C-g++               <<  
+15.6      2         6         0         C-TreeGen           C-g++               <<  
+15.7      2         6         0         C-TreeGen           C-g++               <<  
+15.8      2         5         0         C-TreeGen           C-Mongo             <<  
+15.9      2         5         0         C-TreeGen           C-Mongo             <<  
+16        2         5         0         C-TreeGen           C-Mongo             <<  
+16.1      2         5         0         C-TreeGen           C-Mongo             <<  
+16.2      2         5         0         C-TreeGen           C-Mongo             <<  
+16.3      2         5         0         C-TreeGen           C-Mongo             <<  
+16.4      2         5         0         C-TreeGen           C-Mongo             <<  
+16.5      2         5         0         C-TreeGen           C-Mongo             <<  
+16.6      2         5         0         C-TreeGen           C-Mongo             <<  
+16.7      2         5         0         C-TreeGen           C-Mongo             <<  
+16.8      2         5         0         C-TreeGen           C-Mongo             <<  
+16.9      2         5         0         C-TreeGen           C-Mongo             <<  
+17        2         5         0         C-TreeGen           C-Mongo             <<  
+17.1      2         5         0         C-TreeGen           C-Mongo             <<  
+17.2      2         5         0         C-TreeGen           C-Mongo             <<  
+17.3      2         5         0         C-TreeGen           C-Mongo             <<  
+17.4      2         5         0         C-TreeGen           C-Mongo             <<  
+17.5      2         5         0         C-TreeGen           C-Mongo             <<  
+17.6      2         5         0         C-TreeGen           C-Mongo             <<  
+17.7      2         5         0         C-TreeGen           C-Mongo             <<  
+17.8      2         5         0         C-TreeGen           C-Mongo             <<  
+17.9      2         5         0         C-TreeGen           C-Mongo             <<  
+18        2         5         0         C-TreeGen           C-Mongo             <<  
+18.1      2         5         0         C-TreeGen           C-Mongo             <<  
+18.2      2         5         0         C-TreeGen           C-Mongo             <<  
+18.3      2         5         0         C-TreeGen           C-Mongo             <<  
+18.4      2         5         0         C-TreeGen           C-Mongo             <<  
+18.5      2         5         0         C-TreeGen           C-Mongo             <<  
+18.6      2         5         0         C-TreeGen           C-Mongo             <<  
+18.7      2         5         0         C-TreeGen           C-Mongo             <<  
+18.8      2         5         0         C-TreeGen           C-Mongo             <<  
+18.9      2         5         0         C-TreeGen           C-Mongo             <<  
+19        2         5         0         C-TreeGen           C-Mongo             <<  
+19.1      2         5         0         C-TreeGen           C-Mongo             <<  
+19.2      2         5         0         C-TreeGen           C-Mongo             <<  
+19.3      2         5         0         C-TreeGen           C-Mongo             <<  
+19.4      2         5         0         C-TreeGen           C-Mongo             <<  
+19.5      2         5         0         C-TreeGen           C-Mongo             <<  
+19.6      2         5         0         C-TreeGen           C-Mongo             <<  
+19.7      2         5         0         C-TreeGen           C-Mongo             <<  
+19.8      2         5         0         C-TreeGen           C-Mongo             <<  
+19.9      2         5         0         C-TreeGen           C-Mongo             <<  
+20        2         5         0         C-TreeGen           C-Mongo             <<  
+20.1      2         5         0         C-TreeGen           C-Mongo             <<  
+20.2      2         5         0         C-TreeGen           C-Mongo             <<  
+20.3      2         5         0         C-TreeGen           C-Mongo             <<  
+20.4      2         5         0         C-TreeGen           C-Mongo             <<  
+20.5      2         5         0         C-TreeGen           C-Mongo             <<  
+20.6      2         5         0         C-TreeGen           C-Mongo             <<  
+20.7      2         5         0         C-TreeGen           C-Mongo             <<  
+20.8      2         5         0         C-TreeGen           C-Mongo             <<  
+20.9      2         5         0         C-TreeGen           C-Mongo             <<  
+21        2         5         0         C-TreeGen           C-Mongo             <<  
+21.1      2         5         0         C-TreeGen           C-Mongo             <<  
+21.2      2         5         0         C-TreeGen           C-Mongo             <<  
+21.3      2         5         0         C-TreeGen           C-Mongo             <<  
+21.4      2         5         0         C-TreeGen           C-Mongo             <<  
+21.5      2         5         0         C-TreeGen           C-Mongo             <<  
+21.6      2         5         0         C-TreeGen           C-Mongo             <<  
+21.7      2         5         0         C-TreeGen           C-Mongo             <<  
+21.8      2         5         0         C-TreeGen           C-Mongo             <<  
+21.9      2         5         0         C-TreeGen           C-Mongo             <<  
+22        2         5         0         C-TreeGen           C-Mongo             <<  
+22.1      2         5         0         C-TreeGen           C-Mongo             <<  
+22.2      2         5         0         C-TreeGen           C-Mongo             <<  
+22.3      2         5         0         C-TreeGen           C-Mongo             <<  
+22.4      2         4         0         C-SqlLite           C-Mongo             <<  
+22.5      2         4         0         C-SqlLite           C-Mongo             <<  
+22.6      2         4         0         C-SqlLite           C-Mongo             <<  
+22.7      2         4         0         C-SqlLite           C-Mongo             <<  
+22.8      2         4         0         C-SqlLite           C-Mongo             <<  
+22.9      2         4         0         C-SqlLite           C-Mongo             <<  
+23        2         4         0         C-SqlLite           C-Mongo             <<  
+23.1      2         4         0         C-SqlLite           C-Mongo             <<  
+23.2      2         4         0         C-SqlLite           C-Mongo             <<  
+23.3      2         4         0         C-SqlLite           C-Mongo             <<  
+23.4      2         4         0         C-SqlLite           C-Mongo             <<  
+23.5      2         4         0         C-SqlLite           C-Mongo             <<  
+23.6      2         4         0         C-SqlLite           C-Mongo             <<  
+23.7      2         4         0         C-SqlLite           C-Mongo             <<  
+23.8      2         4         0         C-SqlLite           C-Mongo             <<  
+23.9      2         4         0         C-SqlLite           C-Mongo             <<  
+24        2         4         0         C-SqlLite           C-Mongo             <<  
+24.1      2         4         0         C-SqlLite           C-Mongo             <<  
+24.2      2         4         0         C-SqlLite           C-Mongo             <<  
+24.3      2         4         0         C-SqlLite           C-Mongo             <<  
+24.4      2         4         0         C-SqlLite           C-Mongo             <<  
+24.5      2         4         0         C-SqlLite           C-Mongo             <<  
+24.6      2         4         0         C-SqlLite           C-Mongo             <<  
+24.7      2         4         0         C-SqlLite           C-Mongo             <<  
+24.8      2         4         0         C-SqlLite           C-Mongo             <<  
+24.9      2         4         0         C-SqlLite           C-Mongo             <<  
+25        2         4         0         C-SqlLite           C-Mongo             <<  
+25.1      2         4         0         C-SqlLite           C-Mongo             <<  
+25.2      2         4         0         C-SqlLite           C-Mongo             <<  
+25.3      2         4         0         C-SqlLite           C-Mongo             <<  
+25.4      2         4         0         C-SqlLite           C-Mongo             <<  
+25.5      2         4         0         C-SqlLite           C-Mongo             <<  
+25.6      2         4         0         C-SqlLite           C-Mongo             <<  
+25.7      2         4         0         C-SqlLite           C-Mongo             <<  
+25.8      2         4         0         C-SqlLite           C-Mongo             <<  
+25.9      2         4         0         C-SqlLite           C-Mongo             <<  
+26        2         4         0         C-SqlLite           C-Mongo             <<  
+26.1      2         4         0         C-SqlLite           C-Mongo             <<  
+26.2      2         4         0         C-SqlLite           C-Mongo             <<  
+26.3      2         4         0         C-SqlLite           C-Mongo             <<  
+26.4      2         4         0         C-SqlLite           C-Mongo             <<  
+26.5      2         4         0         C-SqlLite           C-Mongo             <<  
+26.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+26.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+26.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+26.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+27        2         3         0         C-SqlLite           C-GraphLib          <<  
+27.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.5      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+27.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+28        2         3         0         C-SqlLite           C-GraphLib          <<  
+28.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.5      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+28.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+29        2         3         0         C-SqlLite           C-GraphLib          <<  
+29.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.5      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+29.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+30        2         3         0         C-SqlLite           C-GraphLib          <<  
+30.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.5      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+30.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+31        2         3         0         C-SqlLite           C-GraphLib          <<  
+31.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.5      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.6      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.7      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.8      2         3         0         C-SqlLite           C-GraphLib          <<  
+31.9      2         3         0         C-SqlLite           C-GraphLib          <<  
+32        2         3         0         C-SqlLite           C-GraphLib          <<  
+32.1      2         3         0         C-SqlLite           C-GraphLib          <<  
+32.2      2         3         0         C-SqlLite           C-GraphLib          <<  
+32.3      2         3         0         C-SqlLite           C-GraphLib          <<  
+32.4      2         3         0         C-SqlLite           C-GraphLib          <<  
+32.5      2         2         0         C-SqlLite           I-Word              <<  
+32.6      2         2         0         C-SqlLite           I-Word              <<  
+32.7      2         2         0         C-SqlLite           I-Word              <<  
+32.8      2         2         0         C-SqlLite           I-Word              <<  
+32.9      2         2         0         C-SqlLite           I-Word              <<  
+33        2         2         0         C-SqlLite           I-Word              <<  
+33.1      2         2         0         C-SqlLite           I-Word              <<  
+33.2      2         2         0         C-SqlLite           I-Word              <<  
+33.3      2         2         0         C-SqlLite           I-Word              <<  
+33.4      2         2         0         C-SqlLite           I-Word              <<  
+33.5      2         2         0         C-SqlLite           I-Word              <<  
+33.6      2         2         0         C-SqlLite           I-Word              <<  
+33.7      2         2         0         C-SqlLite           I-Word              <<  
+33.8      2         2         0         C-SqlLite           I-Word              <<  
+33.9      2         2         0         C-SqlLite           I-Word              <<  
+34        2         2         0         C-SqlLite           I-Word              <<  
+34.1      2         2         0         C-SqlLite           I-Word              <<  
+34.2      2         2         0         C-SqlLite           I-Word              <<  
+34.3      2         2         0         C-SqlLite           I-Word              <<  
+34.4      2         2         0         C-SqlLite           I-Word              <<  
+34.5      2         2         0         C-SqlLite           I-Word              <<  
+34.6      2         2         0         C-SqlLite           I-Word              <<  
+34.7      2         2         0         C-SqlLite           I-Word              <<  
+34.8      2         2         0         C-SqlLite           I-Word              <<  
+34.9      2         2         0         C-SqlLite           I-Word              <<  
+35        2         2         0         C-SqlLite           I-Word              <<  
+35.1      2         1         0         I-Chrome            I-Word              <<  
+35.2      2         1         0         I-Chrome            I-Word              <<  
+35.3      2         1         0         I-Chrome            I-Word              <<  
+35.4      2         1         0         I-Chrome            I-Word              <<  
+35.5      2         1         0         I-Chrome            I-Word              <<  
+35.6      2         1         0         I-Chrome            I-Word              <<  
+35.7      2         1         0         I-Chrome            I-Word              <<  
+35.8      2         1         0         I-Chrome            I-Word              <<  
+35.9      2         1         0         I-Chrome            I-Word              <<  
+36        2         1         0         I-Chrome            I-Word              <<  
+36.1      2         1         0         I-Chrome            I-Word              <<  
+36.2      2         1         0         I-Chrome            I-Word              <<  
+36.3      2         1         0         I-Chrome            I-Word              <<  
+36.4      2         1         0         I-Chrome            I-Word              <<  
+36.5      2         1         0         I-Chrome            I-Word              <<  
+36.6      2         1         0         I-Chrome            I-Word              <<  
+36.7      2         1         0         I-Chrome            I-Word              <<  
+36.8      2         1         0         I-Chrome            I-Word              <<  
+36.9      2         1         0         I-Chrome            I-Word              <<  
+37        2         1         0         I-Chrome            I-Word              <<  
+37.1      2         1         0         I-Chrome            I-Word              <<  
+37.2      2         0         1         I-Terminal          I-Word              <<  I-Chrome            
+37.3      2         0         1         I-Terminal          I-Word              <<  I-Chrome            
+37.4      2         0         1         I-Terminal          I-Word              <<  I-Chrome            
+37.5      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+37.6      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+37.7      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+37.8      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+37.9      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38        1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.1      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.2      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.3      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.4      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.5      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.6      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.7      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.8      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+38.9      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+39        1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+39.1      1         0         1         I-Terminal          IDLE                <<  I-Chrome            
+39.2      2         0         0         I-Terminal          I-Chrome            <<  
+39.3      2         0         0         I-Terminal          I-Chrome            <<  
+39.4      2         0         0         I-Terminal          I-Chrome            <<  
+39.5      2         0         0         I-Terminal          I-Chrome            <<  
+39.6      2         0         0         I-Terminal          I-Chrome            <<  
+39.7      2         0         0         I-Terminal          I-Chrome            <<  
+39.8      2         0         0         I-Terminal          I-Chrome            <<  
+39.9      2         0         0         I-Terminal          I-Chrome            <<  
+40        2         0         0         I-Terminal          I-Chrome            <<  
+40.1      2         0         0         I-Terminal          I-Chrome            <<  
+40.2      2         0         0         I-Terminal          I-Chrome            <<  
+40.3      2         0         0         I-Terminal          I-Chrome            <<  
+40.4      2         0         0         I-Terminal          I-Chrome            <<  
+40.5      2         0         0         I-Terminal          I-Chrome            <<  
+40.6      2         0         0         I-Terminal          I-Chrome            <<  
+40.7      2         0         0         I-Terminal          I-Chrome            <<  
+40.8      2         0         0         I-Terminal          I-Chrome            <<  
+40.9      2         0         0         I-Terminal          I-Chrome            <<  
+41        2         0         0         I-Terminal          I-Chrome            <<  
+41.1      2         0         0         I-Terminal          I-Chrome            <<  
+41.2      2         0         0         I-Terminal          I-Chrome            <<  
+41.3      2         0         0         I-Terminal          I-Chrome            <<  
+41.4      2         0         0         I-Terminal          I-Chrome            <<  
+41.5      2         0         0         I-Terminal          I-Chrome            <<  
+41.6      2         0         0         I-Terminal          I-Chrome            <<  
+41.7      2         0         0         I-Terminal          I-Chrome            <<  
+41.8      2         0         0         I-Terminal          I-Chrome            <<  
+41.9      2         0         0         I-Terminal          I-Chrome            <<  
+42        2         0         0         I-Terminal          I-Chrome            <<  
+42.1      2         0         0         I-Terminal          I-Chrome            <<  
+42.2      2         0         0         I-Terminal          I-Chrome            <<  
+42.3      2         0         0         I-Terminal          I-Chrome            <<  
+42.4      2         0         0         I-Terminal          I-Chrome            <<  
+42.5      2         0         0         I-Terminal          I-Chrome            <<  
+42.6      2         0         0         I-Terminal          I-Chrome            <<  
+42.7      2         0         0         I-Terminal          I-Chrome            <<  
+42.8      2         0         0         I-Terminal          I-Chrome            <<  
+42.9      2         0         0         I-Terminal          I-Chrome            <<  
+43        2         0         0         I-Terminal          I-Chrome            <<  
+43.1      2         0         0         I-Terminal          I-Chrome            <<  
+43.2      2         0         0         I-Terminal          I-Chrome            <<  
+43.3      2         0         0         I-Terminal          I-Chrome            <<  
+43.4      2         0         0         I-Terminal          I-Chrome            <<  
+43.5      2         0         0         I-Terminal          I-Chrome            <<  
+43.6      2         0         0         I-Terminal          I-Chrome            <<  
+43.7      2         0         0         I-Terminal          I-Chrome            <<  
+43.8      2         0         0         I-Terminal          I-Chrome            <<  
+43.9      2         0         0         I-Terminal          I-Chrome            <<  
+44        2         0         0         I-Terminal          I-Chrome            <<  
+44.1      2         0         0         I-Terminal          I-Chrome            <<  
+44.2      2         0         0         I-Terminal          I-Chrome            <<  
+44.3      2         0         0         I-Terminal          I-Chrome            <<  
+44.4      2         0         0         I-Terminal          I-Chrome            <<  
+44.5      2         0         0         I-Terminal          I-Chrome            <<  
+44.6      2         0         0         I-Terminal          I-Chrome            <<  
+44.7      2         0         0         I-Terminal          I-Chrome            <<  
+44.8      2         0         0         I-Terminal          I-Chrome            <<  
+44.9      2         0         0         I-Terminal          I-Chrome            <<  
+45        2         0         0         I-Terminal          I-Chrome            <<  
+45.1      2         0         0         I-Terminal          I-Chrome            <<  
+45.2      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.3      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.4      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.5      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.6      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.7      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.8      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+45.9      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46        1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.1      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.2      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.3      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.4      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.5      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.6      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.7      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.8      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+46.9      1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+47        1         0         1         IDLE                I-Chrome            <<  I-Terminal          
+47.1      2         0         0         I-Terminal          I-Chrome            <<  
+47.2      2         0         0         I-Terminal          I-Chrome            <<  
+47.3      2         0         0         I-Terminal          I-Chrome            <<  
+47.4      2         0         0         I-Terminal          I-Chrome            <<  
+47.5      2         0         0         I-Terminal          I-Chrome            <<  
+47.6      2         0         0         I-Terminal          I-Chrome            <<  
+47.7      2         0         0         I-Terminal          I-Chrome            <<  
+47.8      2         0         0         I-Terminal          I-Chrome            <<  
+47.9      2         0         0         I-Terminal          I-Chrome            <<  
+48        2         0         0         I-Terminal          I-Chrome            <<  
+48.1      2         0         0         I-Terminal          I-Chrome            <<  
+48.2      2         0         0         I-Terminal          I-Chrome            <<  
+48.3      2         0         0         I-Terminal          I-Chrome            <<  
+48.4      2         0         0         I-Terminal          I-Chrome            <<  
+48.5      2         0         0         I-Terminal          I-Chrome            <<  
+48.6      2         0         0         I-Terminal          I-Chrome            <<  
+48.7      2         0         0         I-Terminal          I-Chrome            <<  
+48.8      2         0         0         I-Terminal          I-Chrome            <<  
+48.9      2         0         0         I-Terminal          I-Chrome            <<  
+49        2         0         0         I-Terminal          I-Chrome            <<  
+49.1      1         0         0         I-Terminal          IDLE                <<  
+49.2      1         0         0         I-Terminal          IDLE                <<  
+49.3      1         0         0         I-Terminal          IDLE                <<  
+49.4      1         0         0         I-Terminal          IDLE                <<  
+49.5      1         0         0         I-Terminal          IDLE                <<  
+49.6      1         0         0         I-Terminal          IDLE                <<  
+49.7      1         0         0         I-Terminal          IDLE                <<  
+49.8      1         0         0         I-Terminal          IDLE                <<  
+49.9      1         0         0         I-Terminal          IDLE                <<  
+50        1         0         0         I-Terminal          IDLE                <<  
+50.1      1         0         0         I-Terminal          IDLE                <<  
+50.2      1         0         0         I-Terminal          IDLE                <<  
+50.3      1         0         0         I-Terminal          IDLE                <<  
+50.4      1         0         0         I-Terminal          IDLE                <<  
+50.5      1         0         0         I-Terminal          IDLE                <<  
+50.6      1         0         0         I-Terminal          IDLE                <<  
+50.7      1         0         0         I-Terminal          IDLE                <<  
+50.8      1         0         0         I-Terminal          IDLE                <<  
+50.9      1         0         0         I-Terminal          IDLE                <<  
+51        1         0         0         I-Terminal          IDLE                <<  
+51.1      1         0         0         I-Terminal          IDLE                <<  
+51.2      1         0         0         I-Terminal          IDLE                <<  
+51.3      1         0         0         I-Terminal          IDLE                <<  
+51.4      1         0         0         I-Terminal          IDLE                <<  
+51.5      1         0         0         I-Terminal          IDLE                <<  
+51.6      1         0         0         I-Terminal          IDLE                <<  
+51.7      1         0         0         I-Terminal          IDLE                <<  
+51.8      1         0         0         I-Terminal          IDLE                <<  
+51.9      1         0         0         I-Terminal          IDLE                <<  
+52        1         0         0         I-Terminal          IDLE                <<  
+52.1      1         0         0         I-Terminal          IDLE                <<  
+52.2      1         0         0         I-Terminal          IDLE                <<  
+52.3      1         0         0         I-Terminal          IDLE                <<  
+52.4      1         0         0         I-Terminal          IDLE                <<  
+52.5      1         0         0         I-Terminal          IDLE                <<  
+52.6      1         0         0         I-Terminal          IDLE                <<  
+52.7      1         0         0         I-Terminal          IDLE                <<  
+52.8      1         0         0         I-Terminal          IDLE                <<  
+52.9      1         0         0         I-Terminal          IDLE                <<  
+53        1         0         0         I-Terminal          IDLE                <<  
+53.1      1         0         0         I-Terminal          IDLE                <<  
+53.2      1         0         0         I-Terminal          IDLE                <<  
+53.3      1         0         0         I-Terminal          IDLE                <<  
+53.4      1         0         0         I-Terminal          IDLE                <<  
+53.5      1         0         0         I-Terminal          IDLE                <<  
+53.6      1         0         0         I-Terminal          IDLE                <<  
+53.7      1         0         0         I-Terminal          IDLE                <<  
+53.8      1         0         0         I-Terminal          IDLE                <<  
+53.9      1         0         0         I-Terminal          IDLE                <<  
+54        1         0         0         I-Terminal          IDLE                <<  
+54.1      1         0         0         I-Terminal          IDLE                <<  
+54.2      1         0         0         I-Terminal          IDLE                <<  
+54.3      1         0         0         I-Terminal          IDLE                <<  
+54.4      1         0         0         I-Terminal          IDLE                <<  
+54.5      1         0         0         I-Terminal          IDLE                <<  
+54.6      1         0         0         I-Terminal          IDLE                <<  
+54.7      1         0         0         I-Terminal          IDLE                <<  
+54.8      1         0         0         I-Terminal          IDLE                <<  
+54.9      1         0         0         I-Terminal          IDLE                <<  
+55        0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.1      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.2      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.3      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.4      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.5      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.6      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.7      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.8      0         0         1         IDLE                IDLE                <<  I-Terminal          
+55.9      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56        0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.1      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.2      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.3      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.4      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.5      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.6      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.7      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.8      0         0         1         IDLE                IDLE                <<  I-Terminal          
+56.9      0         0         1         IDLE                IDLE                <<  I-Terminal          
+57        1         0         0         I-Terminal          IDLE                <<  
+57.1      1         0         0         I-Terminal          IDLE                <<  
+57.2      1         0         0         I-Terminal          IDLE                <<  
+57.3      1         0         0         I-Terminal          IDLE                <<  
+57.4      1         0         0         I-Terminal          IDLE                <<  
+57.5      1         0         0         I-Terminal          IDLE                <<  
+57.6      1         0         0         I-Terminal          IDLE                <<  
+57.7      1         0         0         I-Terminal          IDLE                <<  
+57.8      1         0         0         I-Terminal          IDLE                <<  
+57.9      1         0         0         I-Terminal          IDLE                <<  
+58        1         0         0         I-Terminal          IDLE                <<  
+58.1      1         0         0         I-Terminal          IDLE                <<  
+58.2      1         0         0         I-Terminal          IDLE                <<  
+58.3      1         0         0         I-Terminal          IDLE                <<  
+58.4      1         0         0         I-Terminal          IDLE                <<  
+58.5      1         0         0         I-Terminal          IDLE                <<  
+58.6      1         0         0         I-Terminal          IDLE                <<  
+58.7      1         0         0         I-Terminal          IDLE                <<  
+58.8      1         0         0         I-Terminal          IDLE                <<  
+58.9      1         0         0         I-Terminal          IDLE                <<  
+59        1         0         0         I-Terminal          IDLE                <<  
+59.1      1         0         0         I-Terminal          IDLE                <<  
+59.2      1         0         0         I-Terminal          IDLE                <<  
+59.3      1         0         0         I-Terminal          IDLE                <<  
+59.4      1         0         0         I-Terminal          IDLE                <<  
+59.5      1         0         0         I-Terminal          IDLE                <<  
+59.6      1         0         0         I-Terminal          IDLE                <<  
+59.7      1         0         0         I-Terminal          IDLE                <<  
+59.8      1         0         0         I-Terminal          IDLE                <<  
+59.9      1         0         0         I-Terminal          IDLE                <<  
+60        1         0         0         I-Terminal          IDLE                <<  
+60.1      1         0         0         I-Terminal          IDLE                <<  
+60.2      1         0         0         I-Terminal          IDLE                <<  
+60.3      1         0         0         I-Terminal          IDLE                <<  
+60.4      1         0         0         I-Terminal          IDLE                <<  
+60.5      1         0         0         I-Terminal          IDLE                <<  
+60.6      1         0         0         I-Terminal          IDLE                <<  
+60.7      1         0         0         I-Terminal          IDLE                <<  
+60.8      1         0         0         I-Terminal          IDLE                <<  
+60.9      1         0         0         I-Terminal          IDLE                <<  
+61        1         0         0         I-Terminal          IDLE                <<  
+61.1      1         0         0         I-Terminal          IDLE                <<  
+61.2      1         0         0         I-Terminal          IDLE                <<  
+61.3      1         0         0         I-Terminal          IDLE                <<  
+61.4      1         0         0         I-Terminal          IDLE                <<  
+61.5      1         0         0         I-Terminal          IDLE                <<  
+61.6      1         0         0         I-Terminal          IDLE                <<  
+61.7      1         0         0         I-Terminal          IDLE                <<  
+61.8      1         0         0         I-Terminal          IDLE                <<  
+61.9      1         0         0         I-Terminal          IDLE                <<  
+62        1         0         0         I-Terminal          IDLE                <<  
+62.1      1         0         0         I-Terminal          IDLE                <<  
+62.2      1         0         0         I-Terminal          IDLE                <<  
+62.3      1         0         0         I-Terminal          IDLE                <<  
+62.4      1         0         0         I-Terminal          IDLE                <<  
+62.5      1         0         0         I-Terminal          IDLE                <<  
+62.6      1         0         0         I-Terminal          IDLE                <<  
+62.7      1         0         0         I-Terminal          IDLE                <<  
+62.8      1         0         0         I-Terminal          IDLE                <<  
+62.9      1         0         0         I-Terminal          IDLE                <<  
+63        1         0         0         I-Terminal          IDLE                <<  
+63.1      1         0         0         I-Terminal          IDLE                <<  
+63.2      1         0         0         I-Terminal          IDLE                <<  
+63.3      1         0         0         I-Terminal          IDLE                <<  
+63.4      1         0         0         I-Terminal          IDLE                <<  
+63.5      1         0         0         I-Terminal          IDLE                <<  
+63.6      1         0         0         I-Terminal          IDLE                <<  
+63.7      1         0         0         I-Terminal          IDLE                <<  
+63.8      1         0         0         I-Terminal          IDLE                <<  
+63.9      1         0         0         I-Terminal          IDLE                <<  
+64        1         0         0         I-Terminal          IDLE                <<  
+64.1      1         0         0         I-Terminal          IDLE                <<  
+64.2      1         0         0         I-Terminal          IDLE                <<  
+64.3      1         0         0         I-Terminal          IDLE                <<  
+64.4      1         0         0         I-Terminal          IDLE                <<  
+64.5      1         0         0         I-Terminal          IDLE                <<  
+64.6      1         0         0         I-Terminal          IDLE                <<  
+64.7      1         0         0         I-Terminal          IDLE                <<  
+64.8      1         0         0         I-Terminal          IDLE                <<  
+Ready State Time: 145.6
+Context Switch Count: 14
+Time Taken: 64.9
